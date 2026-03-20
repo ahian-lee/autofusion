@@ -23,6 +23,20 @@ cd /opt/data/private/moffusion/autofusion
 bash ./launchers/train_constructor_occ_baseline.sh
 ```
 
+Run only topology:
+
+```bash
+cd /opt/data/private/moffusion/autofusion
+bash ./launchers/train_constructor_occ_topo.sh
+```
+
+Run only building blocks:
+
+```bash
+cd /opt/data/private/moffusion/autofusion
+bash ./launchers/train_constructor_occ_bb.sh
+```
+
 Run a single experiment:
 
 ```bash

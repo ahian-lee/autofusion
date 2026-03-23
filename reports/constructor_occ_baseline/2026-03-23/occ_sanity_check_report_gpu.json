@@ -1,0 +1,105 @@
+{
+  "data_dir": "/opt/data/private/moffusion/autofusion/data/resolution_32",
+  "checkpoint": "/opt/data/private/moffusion/pore_topology/trained_models/occ_predictor_full.pt",
+  "num_eval_samples": 150,
+  "num_fit_samples": 50,
+  "fitted_logistic": {
+    "a": -27.43758773803711,
+    "b": -0.06046038493514061
+  },
+  "hard_threshold_vs_gt": {
+    "accuracy": 1.0,
+    "iou": 1.0,
+    "dice": 1.0,
+    "bce": 0.0
+  },
+  "fitted_logistic_vs_gt": {
+    "accuracy": 0.9836728922526041,
+    "iou": 0.9578351451933509,
+    "dice": 0.9784346476170511,
+    "bce": 0.33881589750448865
+  },
+  "occ_predictor_vs_gt": {
+    "accuracy": 0.577666753133138,
+    "iou": 0.0,
+    "dice": 0.0,
+    "bce": 0.684702244202296
+  },
+  "occ_predictor_vs_fitted_logistic": {
+    "mae": 0.2173752232392629,
+    "mse": 0.07172689698636532,
+    "agreement_iou": 0.0
+  },
+  "worst_predictor_minus_logistic_cases": [
+    {
+      "name": "ecn+N430+E226",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9926024970194728,
+      "predictor_minus_logistic_iou": -0.9926024970194728,
+      "predictor_vs_logistic_mae": 0.4610358774662018
+    },
+    {
+      "name": "ukl+N193+E206",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9871116689828305,
+      "predictor_minus_logistic_iou": -0.9871116689828305,
+      "predictor_vs_logistic_mae": 0.40598803758621216
+    },
+    {
+      "name": "bcs+N634+E212",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.983728934976893,
+      "predictor_minus_logistic_iou": -0.983728934976893,
+      "predictor_vs_logistic_mae": 0.40931278467178345
+    },
+    {
+      "name": "nfc+N89+E0",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9826760280108972,
+      "predictor_minus_logistic_iou": -0.9826760280108972,
+      "predictor_vs_logistic_mae": 0.37160569429397583
+    },
+    {
+      "name": "wma+N286+E71",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9808041900927912,
+      "predictor_minus_logistic_iou": -0.9808041900927912,
+      "predictor_vs_logistic_mae": 0.33594876527786255
+    },
+    {
+      "name": "cds+N136+E232",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9791407239272185,
+      "predictor_minus_logistic_iou": -0.9791407239272185,
+      "predictor_vs_logistic_mae": 0.33349645137786865
+    },
+    {
+      "name": "wfs+N284+E84",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9785475960004543,
+      "predictor_minus_logistic_iou": -0.9785475960004543,
+      "predictor_vs_logistic_mae": 0.3258177638053894
+    },
+    {
+      "name": "vmt+N357+E212",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9784443669340774,
+      "predictor_minus_logistic_iou": -0.9784443669340774,
+      "predictor_vs_logistic_mae": 0.3286229968070984
+    },
+    {
+      "name": "wnr+N233+E173",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9766632077792873,
+      "predictor_minus_logistic_iou": -0.9766632077792873,
+      "predictor_vs_logistic_mae": 0.319744735956192
+    },
+    {
+      "name": "cco+N83+E18",
+      "predictor_iou": 0.0,
+      "logistic_iou": 0.9762204937132051,
+      "predictor_minus_logistic_iou": -0.9762204937132051,
+      "predictor_vs_logistic_mae": 0.29550641775131226
+    }
+  ]
+}

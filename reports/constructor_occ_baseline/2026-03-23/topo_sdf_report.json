@@ -1,0 +1,107 @@
+{
+  "task": "topo",
+  "input_variant": "sdf",
+  "best_checkpoint": "outputs/constructor_occ_baseline/topo_sdf/topo_sdf_best.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8719742790034622,
+      "topo_accuracy": 0.9135138133806724
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.16969444360550956,
+      "topo_accuracy": 0.9572284477976256
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.11153427247336932,
+      "topo_accuracy": 0.9726506157772107
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.08098659382234985,
+      "topo_accuracy": 0.9576722511927216
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.06365070932979669,
+      "topo_accuracy": 0.9772550760013314
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.05185213207619222,
+      "topo_accuracy": 0.9791967158548763
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.03904071982881065,
+      "topo_accuracy": 0.9779207810939754
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.03208187567061464,
+      "topo_accuracy": 0.9821369133473871
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.02436964513378544,
+      "topo_accuracy": 0.9802507489182293
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.01893239613670826,
+      "topo_accuracy": 0.9820814379230001
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.015439997157744618,
+      "topo_accuracy": 0.983912126927771
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0125180120115268,
+      "topo_accuracy": 0.983523798957062
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.010280868560176242,
+      "topo_accuracy": 0.983634749805836
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.009094599290916779,
+      "topo_accuracy": 0.9847442582935759
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.006393309731385363,
+      "topo_accuracy": 0.9857982913569289
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.006091298908340792,
+      "topo_accuracy": 0.9859647176300899
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.005341474468433023,
+      "topo_accuracy": 0.9856318650837679
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.003904478635036046,
+      "topo_accuracy": 0.9850216354155109
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.003178899979495596,
+      "topo_accuracy": 0.9870742261178298
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.002867053256138032,
+      "topo_accuracy": 0.9865194718739598
+    }
+  ]
+}
